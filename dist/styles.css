@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(150deg, #4568dc, #b06ab3);
+  border-radius: 4px;
+  font-family: "Courier New", "Courier", sans-serif;
+}
+.container .number {
+  position: relative;
+  height: 100px;
+  width: 160px;
+}
+.container .number .one-one {
+  height: 45px;
+  width: 20px;
+  background: #fff;
+  transform: rotate(50deg);
+  border-radius: 8px;
+  position: absolute;
+  left: -15px;
+}
+.container .number .one-two {
+  height: 100px;
+  width: 24px;
+  background: #fff;
+  border-radius: 8px;
+  position: absolute;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+}
+.container .number .zero-one {
+  height: 100px;
+  width: 100px;
+  border: 20px solid #fff;
+  border-radius: 50px;
+  left: 10px;
+  position: absolute;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.container .number .zero-two {
+  height: 100px;
+  width: 100px;
+  border: 20px solid #fff;
+  border-radius: 50px;
+  left: 80px;
+  position: absolute;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.container .days {
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+}
+.container .css {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.4375rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-top: -20px;
+}
